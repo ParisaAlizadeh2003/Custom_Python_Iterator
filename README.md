@@ -1,15 +1,17 @@
-# Custom_Python_Iterator
+---
 
-Overview
-Counter is a Python class that implements a custom iterator. It generates numbers in a specified range with a given step. The iterator starts from a given value, increments by a specified step, and stops when it reaches or exceeds the end value.
+# **Custom Python Iterator: Counter Class**  
 
-Features
-Custom iteration with configurable start, end, and step values.
-Generates numbers within the defined range, one at a time.
-Usage
-python
-Copy
-Edit
+## **Overview**  
+**`Counter`** is a Python class that implements a custom iterator. It generates numbers within a specified range, using a given step value. The iterator starts from the defined starting value, increments by the step value, and stops when it reaches or exceeds the end value.
+
+## **Features**  
+- Custom iteration with configurable **start**, **end**, and **step** values.  
+- Generates numbers **one at a time** within the defined range.
+  
+## **Usage**  
+
+```python
 class Counter:
     def __init__(self, start, end, step=1):
         self.start = start
@@ -29,10 +31,10 @@ class Counter:
 # Example usage
 for i in Counter(0, 50, 5):
     print(i)
-Example
-Output:
-Copy
-Edit
+```
+
+### **Example Output:**  
+```
 0
 5
 10
@@ -43,9 +45,26 @@ Edit
 35
 40
 45
-Contributing
-Feel free to fork this repository, improve it, and submit pull requests.
+```
 
-License
-This project is licensed under the MIT License.
+## **How to Run**  
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/Custom_Python_Iterator.git
+    ```
 
+2. Navigate to the project directory:
+    ```bash
+    cd Custom_Python_Iterator
+    ```
+
+3. Run the script:
+    ```bash
+    python counter.py
+    ```
+
+## **Contributing**  
+Feel free to **fork** this repository, **make improvements**, and **submit pull requests**.
+
+## **License**  
+This project is licensed under the **MIT License**.
